@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<style>
+    .central {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40%;
+    }
+</style>
+
+<body>
+
+    <form class="w3-container w3-card-4 w3-pale-green central">
+        <h2>Desired Input</h2>
+
+        <p><input class="w3-input w3-border" type="number" id="number_input"
+                placeholder="Enter a number between 1 and 1000!"></p>
+    </form>
+
+    <script>
+
+        const numberInput = document.querySelector('#number_input')
+        let inputValue;
+        // function handleInput() {
+
+        // }
+
+        const handleInput = (event) => {
+            console.log('handl Input')
+            inputValue = event.target.value;
+
+            if (inputValue > 1000 || inputValue < 1) {
+                event.target.style.background = '#F5B7B1'
+            } else {
+                event.target.style.background = '#ffffff'
+            }
+        }
+
+        numberInput.addEventListener('input', handleInput)
+
+    </script>
+
+</body>
+
+</html>

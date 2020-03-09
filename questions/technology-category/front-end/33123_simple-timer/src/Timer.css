@@ -1,0 +1,39 @@
+.container {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.timer {
+    font-size: 2em;
+    margin: 0.8rem;
+}
+
+button {
+    box-shadow: 0 10px 14px -7px #3e7327;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352', GradientType=0);
+    background: #77b55a linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    border-radius: 4px;
+    border: 1px solid #4b8f29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #5b8a3c;
+    outline: 0;
+}
+
+button:hover {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a', GradientType=0);
+    background: #72b352 linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
