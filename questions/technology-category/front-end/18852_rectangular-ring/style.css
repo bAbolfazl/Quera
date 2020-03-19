@@ -1,0 +1,83 @@
+/* Inline #1 | file:///C:/Users/TOSHIBA%20SATELITE/Desktop/le/tamrin/quera/Quera/questions/technology-category/front-end/18852_rectangular-ring/rectangular_ring.html */
+
+#container {
+  background: #d5d8dc;
+  width: 400px;
+  position: relative;
+  height: 400px;
+  margin: 100px;
+}
+
+.right {
+  background: #2ecc71;
+}
+
+.left {
+  background: #e74c3c;
+}
+
+.left,
+.right {
+  height: 40px;
+  width: 320px;
+  position: absolute;
+}
+
+/* style.css | file:///C:/Users/TOSHIBA%20SATELITE/Desktop/le/tamrin/quera/Quera/questions/technology-category/front-end/18852_rectangular-ring/style.css */
+
+.right {
+  right: 0;
+}
+
+.left {
+  bottom: 0;
+}
+
+/* Inline #1 | file:///C:/Users/TOSHIBA%20SATELITE/Desktop/le/tamrin/quera/Quera/questions/technology-category/front-end/18852_rectangular-ring/rectangular_ring.html */
+
+.right:nth-child(2) {
+  transform: rotate(90deg);
+  right: -140px;
+  top: 140px;
+}
+
+.right:nth-child(3) {
+  transform: rotate(90deg);
+  left: -60px;
+  top: 140px;
+  z-index: 1;
+}
+
+.right:nth-child(4) {
+  bottom: 80px;
+}
+
+.left:nth-child(8) {
+  bottom: 280px;
+}
+
+.left:nth-child(6) {
+  transform: rotate(90deg);
+  right: -60px;
+  bottom: 140px;
+}
+
+.left:nth-child(7) {
+  left: -140px;
+  transform: rotate(90deg);
+  bottom: 140px;
+}
+
+.right:hover ~ .right {
+  z-index: 1;
+}
+
+.left:hover ~ .left {
+  z-index: 1;
+}
+.right:hover {
+  z-index: 1;
+}
+.left:hover {
+  z-index: 1;
+}
