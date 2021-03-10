@@ -1,11 +1,14 @@
 {
-  "name": "timer-hook",
+  "name": "password-",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^3.4.0",
+    "zxcvbn": "^4.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,8 +32,7 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2"
+    "@testing-library/dom": "^6.12.2",
+    "@testing-library/react": "^9.3.2"
   }
 }
