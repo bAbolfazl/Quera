@@ -1,12 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
 import { THEME_TYPE } from "../constants";
+import { ThemeContext } from './../providers/ThemeProvider'
 
 const ThemeSwitcher = () => {
   // No need to change *return* part
   // You have to set themeMode based on context
-  const themeMode = THEME_TYPE.LIGHT;
-  
-  const handleThemeChange = (e) => {};
+  // const themeMode = THEME_TYPE.LIGHT;
+  const { themeMode, setThemeMode } = useContext(ThemeContext)
+
+
+  const handleThemeChange = (e) => { 
+    if(e.target.checked) {
+      setThemeMode("DARK")
+    } else {
+      setThemeMode('LIGHT')
+    }
+
+  };
 
   return (
     <div className="switch-container">
@@ -19,7 +29,7 @@ const ThemeSwitcher = () => {
         />
         <span className="slider round"></span>
       </label>
-      <span className="text-color bold">Dark mode</span>
+      <span className="text-color bold">Dark mode {themeMode}</span>
     </div>
   );
 };
