@@ -5,7 +5,7 @@ function Timer() {
   const {seconds, resume, stop, reset} = useTimer()
 
   return (
-    <div className="timer">{console.log(seconds)}
+    <div className="timer">
       <div className="time" data-testid="time">
         {seconds}
       </div>
