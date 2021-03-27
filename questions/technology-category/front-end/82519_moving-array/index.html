@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moving-Array</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="error-container"></div>
+    <div id="numbers-container"></div>
+    <div id="inputs-container">
+      <input id="item-input" placeholder="item" type="number" />
+      <input id="count-input" placeholder="count" min="0" type="number" />
+    </div>
+    <div id="type-container">
+      <input type="radio" name="type" value="UP" checked /> UP
+      <input type="radio" name="type" value="DOWN" /> DOWN
+    </div>
+    <button id="submit-btn">Submit</button>
+
+    <script>
+      document.getElementById("count-input").onkeydown = function (e) {
+        if (
+          !(
+            (e.keyCode > 95 && e.keyCode < 106) ||
+            (e.keyCode > 47 && e.keyCode < 58) ||
+            e.keyCode == 8
+          )
+        ) {
+          return false;
+        }
+      };
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
