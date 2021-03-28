@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Se7en",
+    "imageUrl": "http://localhost:9000/images/se7en.jpg",
+    "short_description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives."
+  },
+  {
+    "id": 2,
+    "title": "V for vendetta",
+    "imageUrl": "http://localhost:9000/images/v-for-vendetta.jpg",
+    "short_description": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of 'V', plots to overthrow it with the help of a young woman."
+  },
+  {
+    "id": 3,
+    "title": "The prestige",
+    "imageUrl": "http://localhost:9000/images/the-prestige.jpg",
+    "short_description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other."
+  }
+]

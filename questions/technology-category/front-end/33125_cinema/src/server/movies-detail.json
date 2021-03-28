@@ -1,0 +1,26 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Se7en",
+    "banner": "http://localhost:9000/images/se7en-banner.jpg",
+    "image": "http://localhost:9000/images/se7en.jpg",
+    "description": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+    "release_year": 1995
+  },
+  "2": {
+    "id": 2,
+    "title": "V for vendetta",
+    "banner": "http://localhost:9000/images/v-for-vendetta-banner.jpg",
+    "image": "http://localhost:9000/images/v-for-vendetta.jpg",
+    "description": "In a future British tyranny, a shadowy freedom fighter, known only by the alias of 'V', plots to overthrow it with the help of a young woman. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+    "release_year": 2005
+  },
+  "3": {
+    "id": 3,
+    "title": "The prestige",
+    "banner": "http://localhost:9000/images/the-prestige-banner.jpg",
+    "image": "http://localhost:9000/images/the-prestige.jpg",
+    "description": "After a tragic accident, two stage magicians engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.",
+    "release_year": 2006
+  }
+}
