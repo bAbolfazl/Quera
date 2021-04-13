@@ -13,7 +13,7 @@ export default function App() {
                 <Route exact path="/" component={Movies} />
                 <Route exact path="/movies/:movie_id" component={MovieDetail} />
 
-                <Route path="*" component={NotFound} />
+                <Route component={NotFound} />
             </Switch>
         </Router>
     </>;

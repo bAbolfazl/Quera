@@ -1,7 +1,8 @@
 import React from 'react';
+import { withRouter } from 'react-router';
 import NotFound from './NotFound';
 
-export default class MovieDetail extends React.Component {
+class MovieDetail extends React.Component {
     constructor(props) {
         super(props);
 
@@ -41,3 +42,5 @@ export default class MovieDetail extends React.Component {
         )
     }
 }
+
+export default withRouter(MovieDetail)
