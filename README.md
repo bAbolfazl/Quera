@@ -1,5 +1,5 @@
 ﻿# Quera
 Quera.ir
 
- پاسخ بخش سوالات سایت کوئرا
-Answer of "www.quera.ir" questions
+ پاسخ بخش سوالات فرانت اند سایت کوئرا
+Answer of "www.quera.ir" front-end questions
